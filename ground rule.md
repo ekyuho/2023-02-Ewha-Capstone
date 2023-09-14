@@ -33,7 +33,7 @@
 - [33번 Donuts](https://docs.google.com/document/d/1WkR3lk5vDRn9jslIC2YKxIDg-Hr7MEWwEWASHgPc2-w/edit)
 - [34 고등어](https://docs.google.com/spreadsheets/d/1NuS0wd-YNjk1E4daPzAFK6tNzkFkkKAu9s2ACcFfPFw/edit?usp=sharing)
 - [35 log](https://log-your-memory.notion.site/9e0a78e0437541b2b572f97017e3a90c?pvs=4)
-- [36 레쏘](https://smart-stock-8eb.notion.site/7a2388eab85146ebbd62f19299c5a321?pvs=4)
+- [36 레쏘](https://thunder-animantarx-b6f.notion.site/e3fe1bf419ed4fc8b57f80502ddf1dcc?pvs=4)
 - [37 re:codin](https://available-lion-ffe.notion.site/re-coding-0bbbe06a59bd43829982022a3d928c92?pvs=4)
 - [38 레고](https://docs.google.com/document/d/1fSLB07eUawlScP_y0WGC995S8AWlJeCm00E00l9UaVY/edit?usp=sharing)
 - [39 순간포착](https://docs.google.com/document/d/10Xru_UNh0jwF60HSyQF1Yw-0-amwaoKFYb2tFeHX_pg/edit?usp=sharing)
