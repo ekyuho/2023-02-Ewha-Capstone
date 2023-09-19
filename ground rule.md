@@ -36,7 +36,7 @@
 - [35 log](https://log-your-memory.notion.site/9e0a78e0437541b2b572f97017e3a90c?pvs=4)
 - [36 레쏘](https://smart-stock-8eb.notion.site/7a2388eab85146ebbd62f19299c5a321?pvs=4)
 - [37 re:codin](https://available-lion-ffe.notion.site/re-coding-0bbbe06a59bd43829982022a3d928c92?pvs=4)
-- [38 레고](https://docs.google.com/document/d/1fSLB07eUawlScP_y0WGC995S8AWlJeCm00E00l9UaVY/edit?usp=sharing)
+- [38 화이](https://docs.google.com/document/d/1fSLB07eUawlScP_y0WGC995S8AWlJeCm00E00l9UaVY/edit?usp=sharing)
 - [39 순간포착](https://docs.google.com/document/d/10Xru_UNh0jwF60HSyQF1Yw-0-amwaoKFYb2tFeHX_pg/edit?usp=sharing)
 - [40 흰토끼](https://docs.google.com/document/d/10YH_xgAw6KgCagnaGwcu8kZxW9iKQkV4UmmMHC619Hg/edit?usp=sharing)
 - [41번 초이배리](https://docs.google.com/document/d/16Zovvz-m4fu5D1jCqbuj_B6bc5lH9_Lz7i88zEDx23o/edit)
