@@ -6,7 +6,7 @@
 - [04 이가탕후루](https://docs.google.com/document/d/1fw4nLsDX4zsX4kwKwaCC6EHfQqwxWLMht1E01dB2CmM/edit?usp=sharing)
 - [05 A.A ](https://band-oviraptor-ccc.notion.site/Algo-Artisans-02690ea4b05a40ba88b9113b66cc3658?pvs=4)
 - [06 너도 멸종되지 않게 조심해](https://docs.google.com/document/d/1C243GHoAyuRJccQ38ErvpT892swWUHEoAyf_0AVh954/edit?usp=sharing)
-- [07 / r__kie](https://docs.google.com/document/d/1XArnV1D0vUMRPP3eIIeutzXcht2hIOotwj3GaNYDruI/edit?usp=sharing)
+- [07 루스](https://docs.google.com/document/d/1XArnV1D0vUMRPP3eIIeutzXcht2hIOotwj3GaNYDruI/edit?usp=sharing)
 - [08  eta](https://docs.google.com/document/d/1T2R8Jb71xpHPhURSORqFzhrekUv_5hlTaZX3NAYAAOk/edit?usp=sharing)
 - [09 마리모](https://docs.google.com/document/d/1fd42lRmZtH6a00hyUupbWFipYJomf-yHU0SxFo30x4I/edit)
 - [10 Qt](https://github.com/CAPSTONE-10-Qt/GROUND-RULE)
