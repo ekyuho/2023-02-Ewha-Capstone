@@ -1,4 +1,4 @@
-# List of Teams/Projects xx
+# List of Teams/Projects
 - [Team1](#team-01). GPU의 구조를 고려한 거대 언어 모델 (LLM) 추론 효율성 향상 및 가속화
 - [Team2](#team-02). DoongDoongMaster: 어쿠스틱 드럼 연습을 도와주는 드럼 채점기
 - [Team3](#team-03). 실시간 날씨 데이터를 이용한 안전 경로 추천 및 날씨 지도 웹 서비스 
