@@ -1,4 +1,4 @@
-<img width="245" alt="image" src="https://github.com/SweetPangiCrew/2023-02-Ewha-Capston/assets/66422476/9082d143-750a-41fe-83c5-f0aeab6832d8"># List of Teams/Projects
+# List of Teams/Projects
 |팀번호|팀명|프로젝트|
 |:---|:---|:---|
 |01|[Optimus GPrime](#team-01)|GPU의 구조를 고려한 거대 언어 모델 (LLM) 추론 효율성 향상 및 가속화
@@ -311,12 +311,10 @@
 |구현방법|Chat GPT와 같은 LLM 모델을 이용하여 게임 환경 안에서 npc들이 각각 보고 들은 것을 바탕으로 메모리를 형성합니다. 이후 이 메모리를 반영한 프롬프트를 이용해 LLM 모델 출력값을 얻습니다. 이 출력값은 npc들의 대화, 장소 이동, 하루 일과 계획 등에 사용됩니다. |
 |사용할 세부기술|프론트 엔드 : Unity & C#<br>백엔드 : LLAMA, Django, Python|
 |기대효과 및 의의|1. 현실감과 예측 불가능한 게임 경험 : 생성형 AI를 기반으로한 스스로 판단하고 상호작용하는 NPC를 게임에 적용함으로써, 유저들에게 현실감있는 게임 세계를 제공합니다. <br>NPC는 다양한 행동 패턴을 갖추며, 유저들의 상호작용 및 결정에 따라 동적으로 변화합니다. 이를 통해 유저들은 자신의 선택과 행동에 따라 게임의 흐름이 변화함을 느낄 수 있고, 게임을 조금 더 생동감 있게 느낄 수 있습니다.<br>2. 게임 플레이의 다양성  : 생성형 AI를 기반으로 하는 NPC가 게임에 도입되면, 유저의 선택과 행동에 따라 게임의 흐름이 변화합니다. <br>이를 통해 유저는 각각의 상황에 따른 게임 플레이 전략을 세워야하고 새로운 문제에 대응해야 합니다. 이로써 유저들의 게임 경험을 더욱 개인화하고 다양한 게임 플레이를 즐길 수 있습니다.<br>3. 생성형 AI의 게임적 활용 : 생성형 AI가 게임에 도입된 사례가 많지 않다는 점에 주목하여 이 프로젝트는 생성형 AI를 게임 환경에 효과적으로 적용하고 최적화하는 기술적인 도전 과제를 이행하고 있습니다. <br>이에 대한 결과물은 게임 산업에서 생성형 AI 기술을 더욱 확장하는 토대가 될 수 있습니다.|
-|9월 진척사항|1. [Generative Agents: Interactive Simulacra of Human Behavior] 논문 리뷰 및 관련 코드 리뷰 진행.<br>2. API 명세서, Sequence Diagram 작성 및 시스템/MVP 기획<br>3. 프론트엔드 : 서버의 데이터를 불러오는 JSON Reader 완성 / 행동 트리를 활용한 NPC의 기본 틀 완성<br>4. 백 엔드 : Django 서버 설계 및 api 생성<br>5. AI : KoAlpaca 모델을 이용하여 이전 대화를 바탕으로 다음 대화 생성 시스템 <img width="581" alt="Untitled (29)" src="https://github.com/SweetPangiCrew/2023-02-Ewha-Capston/assets/66422476/f5cd2d57-158b-45c8-b67b-5480579d3707">
-|
+|9월 진척사항|1. [Generative Agents: Interactive Simulacra of Human Behavior] 논문 리뷰 및 관련 코드 리뷰 진행.<br>2. API 명세서, Sequence Diagram 작성 및 시스템/MVP 기획<br>3. 프론트엔드 : 서버의 데이터를 불러오는 JSON Reader 완성 / 행동 트리를 활용한 NPC의 기본 틀 완성<br>4. 백 엔드 : Django 서버 설계 및 api 생성<br>5. AI : KoAlpaca 모델을 이용하여 이전 대화를 바탕으로 다음 대화 생성 시스템 <img width="581" alt="Untitled (29)" src="https://github.com/SweetPangiCrew/2023-02-Ewha-Capston/assets/66422476/f5cd2d57-158b-45c8-b67b-5480579d3707">|
 |10월 진척예정| 1. [행동트리 및 NPC 루틴] 행동트리 적용을 위한 BT스크립트 작성, NPC가 정해진 waypoint를 따라가며 루틴을 이행하고 도중에 다른 NPC를 만나면 NPC를 인지하여 멈추고 자기 자신과 상호작용한 NPC의 이름과 위치정보를 JSON파일로 변환
 2. [대화 시스템] chat gpt가 생성한 대화 내용이 담긴 json 파일을 유니티에서 불러와서 npc 말풍선으로 출력, 카카오톡처럼 별도의 창을 열어서 이전 npc들의 대화를 모두 볼 수 있게 구성함
-3.[인지 시스템] 다른 NPC 주변 반경에 존재하면 인지하고 NPC와 대화할 지 결정하고 대화를 생성하는 시스템 구현  <img width="739" alt="Untitled (30)" src="https://github.com/SweetPangiCrew/2023-02-Ewha-Capston/assets/66422476/cd1db370-7b41-4503-ae9a-a59e6f8d50a8">
-|
+3.[인지 시스템] 다른 NPC 주변 반경에 존재하면 인지하고 NPC와 대화할 지 결정하고 대화를 생성하는 시스템 구현  <img width="739" alt="Untitled (30)" src="https://github.com/SweetPangiCrew/2023-02-Ewha-Capston/assets/66422476/cd1db370-7b41-4503-ae9a-a59e6f8d50a8">|
 |11월 진척예정| AI 주교의 포교 활동, 유저의 교화 활동과 관련된 시스템을 완성합니다.|
 |12월1일 데모 시나리오|AI 주교가 사이비 종교를 퍼트리고, 유저가 npc들과 대화하며 사이비 종교에 대한 정보를 수집하고 포교 활동을 저해합니다. AI 주교가 주최하는<br>종교 집회에 일정 수 이상의 NPC가 모이면 게임이 실패합니다.|
 |기타||
