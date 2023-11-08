@@ -297,7 +297,7 @@
 
 [Return TOP](#list-of-teamsprojects)
 # Team 13.
-|프로젝트명|[Agent.I] Generative agent를 적용한 npc와 대화를 통해 AI를 설득하고 경쟁하는 사회 시뮬레이션 게임|
+|프로젝트명|[Agent.I] Generative agent를 적용한 NPC와 언어적 상호작용을 통해 AI를 설득하여 위험 NPC 집단을 해체하는 사회 시뮬레이션 게임|
 |:---|:---|
 |작성일|2023-11-07 00:00:00|
 |팀번호 및 팀명|13. 스윗팡이크루|
