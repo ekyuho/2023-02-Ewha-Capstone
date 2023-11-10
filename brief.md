@@ -488,7 +488,7 @@
 # Team 23.
 |프로젝트명|Stroke-based Collaborative Drawing between Robot(AI) and Human|
 |:---|:---|
-|작성일|2023년10월3일|
+|작성일|2023년11월10일|
 |팀번호 및 팀명|23. 새우타코|
 |팀구성원들의 역할분담|2176123 남지민 팀장, Image Completion관련 AI 코드 담당<br>2071032 윤지원 팀원, CV 인식 관련 AI 코드 작성<br>2076371 정세윤 팀원, 로보틱스 구현 관련 코드 담당|
 |팀지도교수|김영준 교수님|
