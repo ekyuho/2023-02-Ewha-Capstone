@@ -18,7 +18,7 @@
 |15|[감자도리](#team-15)|고령화 시대에서 은퇴 후에도 경력을 살려 일할 수 있도록 시니어 전문가와 기업을 이어주는 성향 기반 매칭 웹 사이트
 |16|결번|결번|
 |17|[출발드림팀](#team-17)|과민대장증후군 개선을 위한 헬스케어 서비스, 건강하장
-|18|[앤트](#team-18)|Prompirit: Prompt Editing AI Tool to Improve AI-Generative Work Using User Emotion
+|18|[앤트](#team-18)|Prompirit : Prompt Editing AI Tool to Improve AI-Generated Work Using User Emotion 
 |19|[TMM](#team-19)|일과 휴식의 시간적 혼재로 업무 집중이 어려운 2030 세대의 생산 효율성 증진을 위해 게임성으로 업무 동기를 부여하는 모바일 시간 관리 어플리케이션
 |20|[커미커미](#team-20)|일러스트로 (Illustro) : 일러스트 의뢰자에게 특정 작가의 그림체를 기반으로 한 AI그림을 빠르고 저렴하게 제공하는 웹 서비스
 |21|[AtoB](#team-21)|현대인의 정신건강을 위해 자연어처리를 통한 심리 분석을 제공하기 위한 일상 기록 플랫폼
