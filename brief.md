@@ -25,7 +25,7 @@
 |22|[쓰리박](#team-22)|Crayola Dreams : 동심을 담은 크레파스 그림을 자동으로 생성해주는 AI 일기 서비스
 |23|[새우타코](#team-23)|Stroke-based Collaborative Drawing between Robot(AI) and Human
 |24|[망고젤리](#team-24)|Object Detection을 활용한 흉기 난동 상황 모니터링 SDK
-|25|[S](#team-25)|소요시간과 동선을 기반으로 한 스케줄 추천 및 일정 관리 웹 서비스
+|25|[S](#team-25)|소요시간과 동선을 기반으로 한 스케줄 추천 및 일정 관리 앱 서비스
 |26|[ETT](#team-26)|DISLODGED : VITS2 모델을 활용하여 위로가 필요한 현대인들에게, 고민을 표출하고 많은 사람들로부터의 다양한 보이스의 위로를 전해주는 감성 웹서비스
 |27|[E모지](#team-27)|LookNLock
 |28|[달리리](#team-28)|속마음을 담은 일기 교환을 통해 현대인의 소외감 해소를 돕는 교환일기 어플리케이션 <비밀친구>
