@@ -888,7 +888,7 @@ Multimodal sentiment analysis: A systematic review of history, datasets, multimo
 
 [Return TOP](#list-of-teamsprojects)
 # Team 42.
-|프로젝트명|Detection 알고리즘을 통해 운전자의 졸음 운전 및 운전 중 부주의를 방지하는 운전자 모니터링 앱 서비스|
+|프로젝트명|경량화한 딥러닝 모델을 통해 운전자의 졸음 운전 및 부주의를 방지하는 운전자 모니터링 앱 서비스|
 |:---|:---|
 |작성일|2023-11-23|
 |팀번호 및 팀명|42. 왈라비|
