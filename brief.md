@@ -492,7 +492,7 @@
 |팀번호 및 팀명|23. 새우타코|
 |팀구성원들의 역할분담|2176123 남지민 팀장, Image Completion관련 AI 코드 담당<br>2071032 윤지원 팀원, CV 인식 관련 AI 코드 작성<br>2076371 정세윤 팀원, 로보틱스 구현 관련 코드 담당|
 |팀지도교수|김영준 교수님|
-|엘리베이터 스피치 문장|Stroke-based Collaborative Drawing between Robot(AI) and Human은 사람이 그림을 그리면 image completion을 학습한 로봇(AI)이 <br>뒤를 이어 해당 그림을 실제 사람이 그리는 것과 비슷한 방식으로 완성시키는 것을 목표로 하는 프로젝트이다.|
+|엘리베이터 스피치 문장|Stroke-based Collaborative Drawing between Robot(AI) and Human은 사람이 그림을 그리면 image completion을 학습한 로봇(AI)이 뒤를 이어 해당 그림을 실제 사람이 그리는 것과 비슷한 방식으로 완성시키는 것을 목표로 하는 프로젝트이다.|
 |문제의 정의|로봇(AI)을 통해 지정된 물체를 백지 상태에서 그리는 것을 넘어, 완성되지 않은 물체를 이어 그리는 연구가 활발하다.<br>하지만, 현재 image completion이 가능한 로봇(AI)은 사람이 그림을 그리는 방식과는 다르게 stroke를 무작위로 생성하는 것만이 가능하다. 또한, 사람이 그림을 그리는 방식과 비슷하게 펜촉의 현위치와 가까운 곳부터 stroke를 생성하는 로봇(AI)은 image completion 기능이 없다.|
 |관련연구/서비스/ 시스템조사결과 및 한계점|1) SketchHealer와 Generative Sketch Healing은 인공지능이 그림의 완성되지 않은 부분을 채운다는 강점이 있다. 하지만, stroke에 기반해서 그림을 그리지는 않기 때문에 실제 사람이 그리는 방식과는 다르게 해당 그림을 구성하는 stroke의 순서를 제시하지는 못한다.<br>2) Stroke-based Rendering and Planning for Robotic Performance of Artistic Drawing과 Content Masked Loss는 로봇(AI)이 실제 사람이 그림을 그리는 것과 비슷한 방식으로 그림을 그린다는 강점이 있지만, 주어진 이미지를 stroke에 기반한 방식으로 다시 그릴 뿐 지정된 물체를 백지 상태에서 그리거나 완성되지 않은 그림을 이어 그리는 것은 불가능하다는 한계가 있다.|
 |제안내용|이 프로젝트의 제안 내용은 stroke를 기반으로 사람과 협업하여 그림을 그리는 human-like 로봇을 구현하는 것이다.(이때, human-like란 무작위로 획을 그리는 것이 아니라, 한 획이 끝나는 지점과 가까운 곳부터 획을 그리거나 동일한 object를 구성하는 stroke에 우선순위를 두어 그림을 완성하는 것을 의미한다.) <br>이를 달성하기 위해 라벨링 된 데이터셋을 활용하여 인공지능에게 image classification과 completion을 차례대로 학습시킨다. 이후, 사람이 그림을 그리면 인공지능이 그림 속 object의 종류를 파악한 다음 해당 그림의 완성본을 생성한다. 나아가, 인공지능을 통해 부족한 부분이 채워진 그림을 stroke based image로 변환한다. 이후, 변환된 그림을 전달받은 로봇이 실제 사람과 비슷한 움직임(순서)으로 기존 이미지에 n개의 stroke를 그린다. 이와 같은 방식으로 사람과 로봇이 번갈아가며 n개의 stroke를 생성함으로써 그림을 완성한다.|
