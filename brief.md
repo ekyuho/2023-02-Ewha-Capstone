@@ -1,7 +1,7 @@
 # List of Teams/Projects
 |팀번호|팀명|프로젝트|
 |:---|:---|:---|
-|01|[Optimus GPrime](#team-01)|Hurry Attention: GPU의 구조를 고려한 Transformer-based 거대 언어 모델 (LLM) 추론 효율성 향상 및 가속화
+|01|[Optimus GPrime](#team-01)|Hurry Attention: GPU의 구조를 고려한 Transformer-based LLM 추론 효율성 향상 및 가속화
 |02|[박김배](#team-02)|DoongDoongMaster: 드럼 초보자의 연습을 도와주는 어쿠스틱 드럼 채점기
 |03|[Munchkins](#team-03)|휠카(WheelCar) : 휠체어 운송 차량 공급의 증대를 위해 탑승자 수요 예측 모델 결과와 슬로프 대여 기능을 제공하는 운전자-탑승자 매칭 O2O 웹서비스
 |04|[심가탕후루](#team-04)|사용자 성향을 반영한 매칭 알고리즘을 통한 사용자의 성향에 맞는 문화 행사 동행 구하기 모바일 앱
@@ -45,7 +45,7 @@
 |42|[왈라비](#team-42)|DRIVE GUARDIAN : 경량화한 딥러닝 모델을 통해 운전자의 졸음 운전 및 운전 중 부주의를 방지하는 운전자 모니터링 앱 서비스
 
 # Team 01.
-|프로젝트명|Hurry Attention: GPU의 구조를 고려한 Transformer-based 거대 언어 모델 (LLM) 추론 효율성 향상 및 가속화|
+|프로젝트명|Hurry Attention: GPU의 구조를 고려한 Transformer-based LLM 추론 효율성 향상 및 가속화|
 |:---|:---|
 |작성일|2023년11월10일|
 |팀번호 및 팀명|01. Optimus GPrime|
