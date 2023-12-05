@@ -313,7 +313,7 @@
 |9월 진척사항|1. [Generative Agents: Interactive Simulacra of Human Behavior] 논문 리뷰 및 관련 코드 리뷰 진행.<br>2. API 명세서, Sequence Diagram 작성 및 시스템/MVP 기획<br>3. 프론트엔드 : 서버의 데이터를 불러오는 JSON Reader 완성 / 행동 트리를 활용한 NPC의 기본 틀 완성<br>4. 백 엔드 : Django 서버 설계 및 api 생성<br>5. AI : KoAlpaca 모델을 이용하여 이전 대화를 바탕으로 다음 대화 생성 시스템 <img width="581" alt="Untitled (29)" src="https://github.com/SweetPangiCrew/2023-02-Ewha-Capston/assets/66422476/f5cd2d57-158b-45c8-b67b-5480579d3707">|
 |10월 진척사항| 1. [행동트리 및 NPC 루틴] 행동트리 적용을 위한 BT스크립트 작성, NPC가 정해진 waypoint를 따라가며 루틴을 이행하고 도중에 다른 NPC를 만나면 NPC를 인지하여 멈추고 자기 자신과 상호작용한 NPC의 이름과 위치정보를 JSON파일로 변환 <br> 2. [대화 시스템] chat gpt가 생성한 대화 내용이 담긴 json 파일을 유니티에서 불러와서 npc 말풍선으로 출력, 카카오톡처럼 별도의 창을 열어서 이전 npc들의 대화를 모두 볼 수 있게 구성함 <br> 3.[인지 시스템] 다른 NPC 주변 반경에 존재하면 인지하고 NPC와 대화할 지 결정하고 대화를 생성하는 시스템 구현  <img width="739" alt="Untitled (30)" src="https://github.com/SweetPangiCrew/2023-02-Ewha-Capston/assets/66422476/cd1db370-7b41-4503-ae9a-a59e6f8d50a8">|
 |11월 진척사항| 1. [AWS EC2 배포] 장고 서버와 유니티가 API를 주고 받기 위하여 아마존의 EC2 서비스를 활용해 장고 서버를 배포하였습니다. 2. [페르소나별 대화 생성] NPC 3명의 페르소나를 작성하고 이를 GPT PROMPT화 하여 대화를 생성 시키는 시스템을 만들었습니다. 3. [공간 기획] NPC가 사는 마을에 대한 기획과 에셋을 구하여 유니티에서 픽셀맵을 제작하는 작업을 진행 중입니다. |
-|12월1일 데모 시나리오|AI 주교가 사이비 종교를 퍼트리고, 유저가 npc들과 대화하며 사이비 종교에 대한 정보를 수집하고 포교 활동을 저해합니다. AI 주교가 주최하는<br>종교 집회에 일정 수 이상의 NPC가 모이면 게임이 실패합니다.|
+|12월1일 데모 시나리오| Generative Agent가 주변 NPC를 인지하여 서버에 해당 정보를 전달합니다. 장고 서버에서 NPC 대화를 생성하여 이를 다시 유니티에 전달하고 이를 UI를 통해 출력합니다.|
 |기타|[References] <br> [1] JoonSungPark, JosephC.O’Brien, CarrieJ.Cai, MeredithRingelMorris, PercyLiang, PercyLiang Generative Agents : Interactive Simulacra of HumanBehavior [2] GitHub - joonspk-research/generative_agents: Generative Agents: Interactive Simulacra of Human Behavior|
 
 [Return TOP](#list-of-teamsprojects)
