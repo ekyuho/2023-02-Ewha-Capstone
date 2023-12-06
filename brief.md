@@ -18,7 +18,7 @@
 |15|[감자도리](#team-15)|다시: 은퇴 후에도 경력을 살려 일할 수 있도록 업무 한 줄 소개를 기반으로 기업에게 시니어 전문가를 추천해주는 AI 매칭 인재풀 웹 사이트|
 |16|결번|결번|
 |17|[출발드림팀](#team-17)|AI 객체 인식을 통한 포드맵 분석과 프롬프트 엔지니어링을 활용해 맞춤형 건강 조언을 제공하는 과민대장증후군 관리 모바일 어플리케이션, BellyWelly
-|18|[앤트](#team-18)|Prompirit : Prompt Editing AI Tool to Improve AI-Generative Work Using User Emotion
+|18|[앤트](#team-18)|Prompirit: Prompt Editing AI Tool to Improve AI-Generative Work Using User Emotion
 |19|[TMM](#team-19)|일과 휴식의 시간적 혼재로 업무 집중이 어려운 2030 세대의 생산 효율성 증진을 위해 게임성으로 업무 동기를 부여하는 모바일 시간 관리 어플리케이션
 |20|[쿠킹마마](#team-20)|쿡세이브: 고물가 시대에 식비 절감을 원하는 1인 가구에게 ‘냉장고 속 식재료 관리’, ‘레시피 추천’, ‘식비 절감 통계’를 제공하는 앱 서비스
 |21|[AtoB](#team-21)|자연어처리를 통한 심리 분석을 통해 안정적인 일상을 보내도록 대응 방법을 제공하기 위한 일상 기록 플랫폼
