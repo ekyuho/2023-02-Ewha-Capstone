@@ -62,6 +62,7 @@
 |데모 시나리오|block size 및 preemption mode에 따른 vLLM 성능 차이를 분석하는 과정을 보인다. Swapping을 소프트웨어적인 prefetching과 preeviction을 통해 개선할 수 있을 것이라는 가설을 세우고, Preemption 발생 빈도와 Swapping으로 발생하는 overhead를 분석한다. |
 |발표자료|인터넷링크 삽입해주세요|
 |기타|[References]<br>[1] Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., ... & Polosukhin, I. (2017). Attention is all you need. Advances in neural information processing systems, 30.<br>[2] Brown, T., Mann, B., Ryder, N., Subbiah, M., Kaplan, J. D., Dhariwal, P., ... & Amodei, D. (2020). Language models are few-shot learners. Advances in neural information processing systems, 33, 1877-1901.<br>[3] Yu, G. I., Jeong, J. S., Kim, G. W., Kim, S., & Chun, B. G. (2022). Orca: A distributed serving system for {Transformer-Based} generative models. In 16th USENIX Symposium on Operating Systems Design and Implementation (OSDI 22) (pp. 521-538).<br>[4] Touvron, H., Lavril, T., Izacard, G., Martinet, X., Lachaux, M. A., Lacroix, T., ... & Lample, G. (2023). Llama: Open and efficient foundation language models. arXiv preprint arXiv:2302.13971.<br>[5] https://github.com/NVIDIA/FasterTransformer<br>[6] https://github.com/pytorch/pytorch<br>[7] https://developer.nvidia.com/cublas<br>[8] https://github.com/huggingface/transformers<br>[9] https://developer.nvidia.com/nsight-systems<br>[10] https://developer.nvidia.com/nsight-compute<br>[11] https://docs.nvidia.com/cuda/cuda-c-programming-guide/<br>[12] https://cse.engin.umich.edu/stories/power-hungry-ai-researchers-evaluate-energy-consumption-across-models<br>[13] Kwon, W., Li, Z., Zhuang, S., Sheng, Y., Zheng, L., Yu, C. H., ... & Stoica, I. (2023). Efficient memory management for large language model serving with pagedattention. arXiv preprint arXiv:2309.06180.|
+
 [Return TOP](#list-of-teamsprojects)
 
 # Team 02.
@@ -82,6 +83,7 @@
 |데모 시나리오|ipad APP(flutter)으로 드럼 연주를 녹음하여, 개발 중인 windows WSL 환경에 구축한 간이 서버에 녹음 파일을 전송하여, 결과를 받아보는 장면을 사전 녹화한 영상|
 |발표자료|인터넷링크 삽입해주세요|
 |기타|사랑합니다.|
+
 [Return TOP](#list-of-teamsprojects)
 
 # Team 03.
@@ -102,6 +104,7 @@
 |데모 시나리오| 시간을 변수로 사용해 콜 요청 수를 예측하는 것이 우리 서비스의 핵심 기술 중 하나이므로, 이를 어떻게 해결하면 좋을지 고민했다. 시계열 데이터 분석 모델을 사용하면 과거 데이터의 패턴을 분석하여 미래의 값을 예측할 수 있겠다는 생각이 들었다. 시계열 분석을 하려면 먼저 사용하는 데이터의 패턴이 지속되는 ‘데이터의 안정성’이 가정되어야 한다. 따라서 ACF 그래프와 ADF 검정을 수행해 장애인콜시스템 데이터셋의 정상성을 확인했다. 그리고 난 후 대표적인 단일 시계열 예측 모델인 ARIMA를 사용해 시간에 따른 콜 수를 예측해봤다. 지금 단계에서는 단일 변수 예측 모델로 데모를 하지만, 앞으로 feature engineering 과정 및 여러 가지 다변량 시계열 예측 모델의 성능을 비교해가며 서비스에 가장 좋은 성과를 내는 모델을 만들어낼 예정이다. |
 |발표자료|인터넷링크 삽입해주세요|
 |기타|  |
+
 [Return TOP](#list-of-teamsprojects)
 
 # Team 04.
@@ -122,6 +125,7 @@
 |데모 시나리오|동행 매칭 기능과 텍스트 마이닝을 통한 데이터 가공 기능을 구현하여 발표|
 |발표자료|인터넷링크 삽입해주세요|
 |기타||
+
 [Return TOP](#list-of-teamsprojects)
 
 # Team 05.
@@ -142,6 +146,7 @@
 |데모 시나리오| colab을 통한 face landmark 적용과 얼굴형 분석 결과를 보여주고 전체적인 플로우를 보여줌으로써, 프로젝트 전반에 대한 이해를 돕는다. |
 |발표자료|인터넷링크 삽입해주세요|
 |기타||
+
 [Return TOP](#list-of-teamsprojects)
 
 # Team 06.
@@ -162,6 +167,7 @@
 |데모 시나리오|1. 프로그램을 시작하면, 사용자는 “새 게임" 버튼을 눌러 게임을 시작한다.<br> 2. 사용자는 게임 시나리오의 기본 뼈대를 이룰 키워드를 태그의 형식으로 선택한다.<br> 3. 태그를 모두 선택하고 “게임 생성" 버튼을 눌러 게임 스크립트를 생성한다.<br> 4. AI를 통해 생성된 스크립트를 플레이하는 도중 생긴 과업을 주관식 행동 선언을 통해 해결한다.<br> 5. 전투나 행동 판정의 성공 여부는 주사위를 통해 결정한다. 한 시나리오의 플레이가 끝난 후 얻은 공격치를 통해 이후 시나리오에서 사용할 수 있는 포인트 등을 제공한다.|
 |발표자료|인터넷링크 삽입해주세요|
 |기타|https://docs.google.com/presentation/d/1odHGM-_Bpv8wlPD3lgbSGG780UUuarSIm_A60EZuGm0/edit?usp=sharing<br>위의 UI에 따른 어플리케이션은 마지막 최종 발표 때 완성하여 플레이 할 계획이며, 12월 1일 데모데이에는 일정에 맞추어 구현한 내용을 UI 플로우에 따라 프롬프트단에서 실행시키려고 한다. 플레이어가 시나리오의 기본 뼈대를 이룰 키워드를 취향에 따라 입력하고, 이를 바탕으로 AI가 작성한 게임 스크립트를 직접 플레이해 볼 예정이다.|
+
 [Return TOP](#list-of-teamsprojects)
 
 # Team 07.
@@ -182,6 +188,7 @@
 |데모 시나리오|1. 회원가입은 기본적으로 아이디/패스워드 방식으로 이루어지며, 다음 두 가지 단계를 따른다.<br>&nbsp;&nbsp;&nbsp;&nbsp;1) CODEF API의 `accessToken`과 `connectedId`를 발급 받아 계정 등록 <br>&nbsp;&nbsp;&nbsp;&nbsp;2) 발급 받은 `connectedId`를 이용하여 사용자가 해당 카드사에서 보유한 카드 목록 조회<br><br>2. 로그인 이후 ONCE 애플리케이션 이용이 가능하며, 크게 5가지 서비스로 구성된다.<br>&nbsp;&nbsp;&nbsp;&nbsp;1) 홈(카드 추천 챗봇 서비스) <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- `GPT-3.5 Turbo` 모델을 파인튜닝하여 사용자가 보유한 카드 중, 사용처에 맞는 최적의 카드 추천<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 챗봇 UI를 이용하여 사용자 친화적 기능 제공   <br>&nbsp;&nbsp;&nbsp;&nbsp;2) 푸시 알림 서비스<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- `react-native-geolocation-service` 라이브러리를 이용한 사용자의 위치 조회<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 발급 받은 CODEF API의 `connectedId`를 이용하여 사용자의 카드 승인 내역 조회<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 사용자의 GPS상 위치가 자주 방문한(최근 6개월 승인 내역을 기반으로 5회 이상) 가맹점 근처일 경우, 해당 가맹점에서 이용할 카드 추천 알림 제공<br>&nbsp;&nbsp;&nbsp;&nbsp;3) 마이 월렛<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- CODEF 보유 카드 조회 API 기반으로 구성되는 사용자의 온라인 지갑<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 사용자가 보유한 카드들의 실적 현황 및 분야별 혜택 정보를 손쉽게 확인 가능<br>&nbsp;&nbsp;&nbsp;&nbsp;4) 나의 혜택 정보<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 월별 카드 실적 및 혜택을 얼마나 받았는지에 대한 정보를 그래프를 통해 수치적인 정보 제공<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 전월 실적을 고려하여 이번 달에 받을 수 있는 혜택 정보를 카테고리화 하여 제공 <br>&nbsp;&nbsp;&nbsp;&nbsp;5) 마이페이지<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 사용자의 개인 정보 조회 및 수정<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 보유 카드 목록 관리<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 주로 실적을 채우고 싶은 주카드 선택 및 변경 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 월별 받은 혜택 정보 조회|
 |발표자료|인터넷링크 삽입해주세요|
 |기타||
+
 [Return TOP](#list-of-teamsprojects)
 
 # Team 08.
@@ -202,6 +209,7 @@
 |데모 시나리오|- 대략적인 AI 데이터 분석 및 모델 현 발표<br>- 프로토타이핑 발표|
 |발표자료|인터넷링크 삽입해주세요|
 |기타|주요 서비스<br>- 공부시간 측정<br>- 졸음 구간 표시<br>- 동영상 시청 시작/종료 버튼<br>- 졸음 감지시 진동/소리/화면 알림|
+
 [Return TOP](#list-of-teamsprojects)
 
 # Team 09.
@@ -222,6 +230,7 @@
 |데모 시나리오|간단한 학점 이수 진척도 체크정도는 가능한 프로토타입 제작|
 |발표자료|인터넷링크 삽입해주세요|
 |기타|꾸준한 회의를 통해 프로덕트 기능을 더 구체화 할 예정입니다.|
+
 [Return TOP](#list-of-teamsprojects)
 
 # Team 10.
@@ -242,6 +251,7 @@
 |데모 시나리오|**서비스 구조도**![서비스 구조도](https://github.com/CAPSTONE-10-Qt/2023-02-Ewha-Capston/assets/89545462/787c6516-f3d7-4244-a0d1-a104bbaed383")|
 |발표자료|인터넷링크 삽입해주세요|
 |기타|**시스템 아키텍처**![시스템 아키텍처](https://github.com/CAPSTONE-10-Qt/2023-02-Ewha-Capston/assets/89545462/1b23df05-b4c4-4d37-8aab-ba52ddecc355)|
+
 [Return TOP](#list-of-teamsprojects)
 
 # Team 11.
@@ -262,6 +272,7 @@
 |데모 시나리오| \- - 완성된 디자인 프로토타입으로 기능 및 시나리오 설명<br><br>1\. 상단의 '질병 식별하기' 아이콘을 터치하고 해당 화면으로 이동한다.<br>2\. 화면에 사진 업로드 버튼과 사진 촬영 버튼이 나타난다.<br>3\. 사용자는 사진 업로드 버튼을 누르고, 이미 찍어 둔 문제의 망고 잎 사진을 업로드한다.<br>4\. 사진 업로드가 완료된 것을 확인하고 '질병 식별 시작' 버튼을 누른다.<br>5\. 몇 초간 '식별 중' 화면이 나타나고, 식별 결과가 바로 화면에 나타난다.<br>6\. 사용자는 자신이 재배하는 망고가 어떤 질병에 걸린 것인지 식별 결과 및 해당 질병에 대한 대처 방법 내용을 발견한다.<br>7\. 화면을 스크롤하며 질병에 대한 정보를 읽어보다, 해당 질병에 대한 대처 방법 '최근 진단 기록'을 누르니 방금 전 식별 결과가 기록되어 있다. <br><br> - VGG-16모델을 사용한 healthy 잎과 disease 잎 구분 <br><br> -mysql db 구축 및 프로젝트 연결 <br><br> - 로그인화면 시연|
 |발표자료|인터넷링크 삽입해주세요|
 |기타|출처 :<br>[https://news.mju.ac.kr/news/articleView.html?idxno=11177<br>](https://news.mju.ac.kr/news/articleView.html?idxno=11177)[http://m.mdilbo.com/detail/GQFJv6/655472](http://m.mdilbo.com/detail/GQFJv6/655472)|
+
 [Return TOP](#list-of-teamsprojects)
 
 # Team 12.
@@ -282,6 +293,7 @@
 |데모 시나리오|총 3개의 챕터 중 챕터 1의 핵심 부분(약 3개 스테이지)을 구현한다.<br>홈 화면에서 시작하여 사용자가 미션을 받아 게임 스테이지에 진입하는 과정을 보여주어 게임의 전반적인 ui와 화면 플로우에 대한 이해를 돕는다. 챕터 1은 프롤로그부터 시작하여 게임의 전반적인 컨셉에 대해 설명한다. 이후 최종 스테이지까지 점진적인 난이도로 구성된 스테이지를 통해 프로그래밍 교육의 진행 방식을 보여준다.|
 |발표자료|인터넷링크 삽입해주세요|
 |기타|[노드_기획안.pdf](https://github.com/rnrgll/test/files/13275513/_.pdf)|
+
 [Return TOP](#list-of-teamsprojects)
 
 # Team 13.
@@ -302,6 +314,7 @@
 |데모 시나리오|AI 주교가 사이비 종교를 퍼트리고, 유저가 npc들과 대화하며 사이비 종교에 대한 정보를 수집하고 포교 활동을 저해합니다. AI 주교가 주최하는<br>종교 집회에 일정 수 이상의 NPC가 모이면 게임이 실패합니다.|
 |발표자료|인터넷링크 삽입해주세요|
 |기타|[References] <br> [1] JoonSungPark, JosephC.O’Brien, CarrieJ.Cai, MeredithRingelMorris, PercyLiang, PercyLiang Generative Agents : Interactive Simulacra of HumanBehavior [2] GitHub - joonspk-research/generative_agents: Generative Agents: Interactive Simulacra of Human Behavior|
+
 [Return TOP](#list-of-teamsprojects)
 
 # Team 14.
@@ -322,6 +335,7 @@
 |데모 시나리오|음역대 측정 기능 데모 버전 시연 및 위 기능을 추가할 플랫폼의 와이어프레임을 소개하고 프로토타입 개발 일정 발표|
 |발표자료|인터넷링크 삽입해주세요|
 |기타|FFT 적용 방식과 음역대 측정 방식 및 음원 데이터 수집 방법에 대한 논의 필요|
+
 [Return TOP](#list-of-teamsprojects)
 
 # Team 15.
@@ -342,6 +356,7 @@
 |데모 시나리오|와이어프레임 및 디자인 시스템을 완성하여 시니어 전문가/기업 사용자 입장에서의 사용 시나리오 시연|
 |발표자료|인터넷링크 삽입해주세요|
 |기타|서비스 타겟 및 비즈니스 모델 ![BM 이미지](https://github.com/Gamja-dori/2023-02-Ewha-Capston/assets/76518934/79ff98d2-0605-43de-9ecd-2f00b0d0c8da) <br/> 와이어프레임<br/>![와이어프레임 ](https://github.com/Gamja-dori/2023-02-Ewha-Capston/assets/76518934/ea61ab5b-4ebb-4f7d-ac2f-f1d275878774)|
+
 [Return TOP](#list-of-teamsprojects)
 
 # Team 17.
@@ -362,6 +377,7 @@
 |데모 시나리오|1. Figma를 통해 제작한 데모 시연 영상을 통해 앱의 전체 화면 구성을 발표한다.<br>2. 기획안과 사용할 기술에 대해 설명한다.|
 |발표자료|인터넷링크 삽입해주세요|
 |기타||
+
 [Return TOP](#list-of-teamsprojects)
 
 # Team 18.
@@ -382,6 +398,7 @@
 |데모 시나리오|1. Prompirit 세부 기술 및 연구 진행의 구체적 단계 소개 <br>2. Prompirit를 이용한 유저 스터디 계획 소개|
 |발표자료|인터넷링크 삽입해주세요|
 |기타|[References]<br>[1] Yunlong Wang, Shuyuan Shen, and Brian Y. Lim. 2023. RePrompt: Automatic Prompt Editing to Refine AI-Generative Art Towards Precise Expressions. In Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems (CHI ’23), April 23–28, 2023, Hamburg, Germany. ACM, New York, NY, USA, 29 pages. https://doi.org/10.1145/3544548.3581402 <br> [2] Jonas Oppenlaender. 2022. Prompt Engineering for Text-Based Generative Art. arXiv 1, 1. Retrieved from http://arxiv.org/abs/2204.13988 <br> [3] Ankita Gandhi, Kinjal Adhvaryu, Soujanya Poria, Erik Cambria, Amir Hussain, Multimodal sentiment analysis: A systematic review of history, datasets, multimodal fusion methods, applications, challenges and future directions, Information Fusion, Volume 91, 2023, Pages 424-444, ISSN 1566-2535, https://doi.org/10.1016/j.inffus.2022.09.025. <br> [4] Amir Zadeh, Minghai Chen, Soujanya Poria, Erik Cambria, and Louis-Philippe Morency. 2017. Tensor Fusion Network for Multimodal Sentiment Analysis. In Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing, pages 1103–1114, Copenhagen, Denmark. Association for Computational Linguistics. <br> [5] Andrea Scarantino. 2017. How to Do Things with Emotional Expressions: The Theory of Affective Pragmatics. Psychological Inquiry 28, 2–3: 165–185. https://doi.org/10.1080/1047840X.2017.1328951 |
+
 [Return TOP](#list-of-teamsprojects)
 
 # Team 19.
@@ -402,6 +419,7 @@
 |데모 시나리오|Figma를 통해 만든 프로토타입으로 어플리케이션에 들어갈 화면 시연과 전체적인 스토리 플로우 소개, UI 및 사용자와의 인터랙션 시연을 목표로 하고 있다.|
 |발표자료|인터넷링크 삽입해주세요|
 |기타||
+
 [Return TOP](#list-of-teamsprojects)
 
 # Team 20.
@@ -422,6 +440,7 @@
 |데모 시나리오|저희 서비스의 기능 중 하나인 ‘냉장고 속 식재료 관리 기능’를 위해 object detection과 OCR를 이용하여 식재료 인식을 진행한다. 먼저 object detection 기술 중 YOLO v5와 v8을 비교하여 각 모델의 결과로 식재료를 인식하는 bounding box와 인식 확률을 보여준다. 두 모델 중 어느 모델이 우리 서비스에 적합한지 판단한 내용과 어떤 모델을 사용하기로 결정했는지 소개한다.|
 |발표자료|인터넷링크 삽입해주세요|
 |기타||
+
 [Return TOP](#list-of-teamsprojects)
 
 # Team 21.
@@ -442,6 +461,7 @@
 |데모 시나리오|"우리 어플은 우선 네이버블로그 같은 형식을 가질 예정이며, 사용자의 각 게시글마다 심리분석을 진행하여  게시글 밑에 간단한 리포트를 제공할 예정입니다. 이 리포트에는 해당일에 대한 심리 분석 및 추천 활동 등이 포함될 예정입니다.<br>또한 이러한 데이터가 쌓인다면 장기적인 심리 상태에 대한 추적이 가능하므로, Weekly/Montly 등 일정 주기에 대한 심리 상태 변화 등을 확인할 수 있는 탭도 구현할 계획입니다.<br>사용자는 이러한 자신의 심리 분석 리포트를 통해 자신의 심리 상태에 대해 객관적으로 인식할 수 있게 되고 이후 대처 방안에 대해서도 고민할 수 있게 됩니다."|
 |발표자료|인터넷링크 삽입해주세요|
 |기타||
+
 [Return TOP](#list-of-teamsprojects)
 
 # Team 22.
@@ -462,6 +482,7 @@
 |데모 시나리오|<br>1. 일기 데이터를 활용한 AI 자동 코멘트 구현<br>2. 일기 데이터를 활용한 다중 감정분석 모델 정상 동작<br>|
 |발표자료|인터넷링크 삽입해주세요|
 |기타||
+
 [Return TOP](#list-of-teamsprojects)
 
 # Team 23.
@@ -482,6 +503,7 @@
 |데모 시나리오|AI와 인간이 마지막으로 생성된 stroke와 가까운 곳부터 번갈아가며 획을 그림으로써 하나의 그림을 완성하고, 그 과정을 보여준다.|
 |발표자료|인터넷링크 삽입해주세요|
 |기타||
+
 [Return TOP](#list-of-teamsprojects)
 
 # Team 24.
@@ -502,6 +524,7 @@
 |데모 시나리오|데모에선 실제 CCTV영상에서 흉기로 추정되는 물체를 판별하고 흉기 난동 의심 상황을 탐지하는 과정을 보여줄 예정이다. 실제 테스트와 적용까지 가지 못하더라도, 기존의 CCTV 데이터에 존재하는 흉기 난동 상황을 탐지할 수 있음을 데모를 통해 기술적으로 보여주는 것을 목표로 한다. |
 |발표자료|인터넷링크 삽입해주세요|
 |기타||
+
 [Return TOP](#list-of-teamsprojects)
 
 # Team 25.
@@ -522,6 +545,7 @@
 |데모 시나리오| 가상의 사용자를 설정하고, 프로토타입을 이용하여 사용 방법을 시연할 예정입니다.                                                                                                                                                                                                                                                                                                                                                                     |
 |발표자료|인터넷링크 삽입해주세요|
 |기타||
+
 [Return TOP](#list-of-teamsprojects)
 
 # Team 26.
@@ -542,6 +566,7 @@
 |데모 시나리오|본 서비스의 배경과 목적 설명<br>구현하고자 하는 서비스의 페이지들 중 중심 기능이 구현될 ‘나만의 가상보이스 생성 페이지’ UI 제시<br>Goggle TTS와 ffmpeg 프레임워크를 활용한 서비스의 작동 구조 설명|
 |발표자료|인터넷링크 삽입해주세요|
 |기타|주제 관련 설문조사 결과를 바탕으로 추가 기능 구현 예정|
+
 [Return TOP](#list-of-teamsprojects)
 
 # Team 27.
@@ -562,6 +587,7 @@
 |데모 시나리오|프로토 타입/PPT 제작|
 |발표자료|인터넷링크 삽입해주세요|
 |기타||
+
 [Return TOP](#list-of-teamsprojects)
 
 # Team 28.
@@ -582,6 +608,7 @@
 |데모 시나리오|1. 프로젝트 <비밀친구> 소개<br>- <비밀친구>란?<br>- <비밀친구> 프로젝트의 목적 및 가치<br>- <비밀친구> 프로젝트의 기술 소개<br><br>2. 프로토타입 실행을 통한 시뮬레이션<br>- [로그인] 웹 브라우저를 통해 교환일기 어플리케이션에 접속해 로그인합니다.<br>- [지인 매칭] 사용자가 알고있는 지인과의 교환일기를 생성하는 방법을 보여줍니다.<br>- [랜덤 매칭] 사용자가 모르는 익명의 상대와의 교환일기를 생성하는 방법을 보여줍니다.<br>- [일기 작성] 위에서 매칭이 성사되어 교환일기가 생성됐다면, 일기를 작성하는 방법을 보여줍니다.<br>- [일기 전달] 위에서 작성했던 일기를 교환일기 파트너에게 보내는 방법을 보여줍니다.<br>- [답장 확인] 교환일기 파트너가 사용자에게 일기를 보냈다면, 이를 화면에서 확인할 수 있음을 보여줍니다.<br>|
 |발표자료|인터넷링크 삽입해주세요|
 |기타||
+
 [Return TOP](#list-of-teamsprojects)
 
 # Team 29.
@@ -602,6 +629,7 @@
 |데모 시나리오|- 기본 UI/UX 구조를 반영한 데모 앱 PPT|
 |발표자료|인터넷링크 삽입해주세요|
 |기타||
+
 [Return TOP](#list-of-teamsprojects)
 
 # Team 30.
@@ -622,6 +650,7 @@
 |데모 시나리오|프로토타입 보여줄 예정|
 |발표자료|인터넷링크 삽입해주세요|
 |기타||
+
 [Return TOP](#list-of-teamsprojects)
 
 # Team 31.
@@ -642,6 +671,7 @@
 |데모 시나리오|연합학습 B2B 서비스의 기반이 될 각 병원별 의료 데이터 가중치 도출 AI 모델 최종 설계|
 |발표자료|인터넷링크 삽입해주세요|
 |기타|개인정보 보호를 위한 보안성 향상에 집중이 필요|
+
 [Return TOP](#list-of-teamsprojects)
 
 # Team 32.
@@ -662,6 +692,7 @@
 |데모 시나리오|1. 프로젝트 소개<br>- 프로젝트의 핵심 기능, 사용할 기술, 기대 효과 및 의의 소개<br>2. 어플 사용 시물레이션<br>- 프로토타입을 통해 사용자가 어플을 사용하는 과정을 친환경 활동 인증 시나리오를 중점으로 시연<br>- 사용자의 인증 내용을 기반으로 한 분석 리포트 예시 공유|
 |발표자료|인터넷링크 삽입해주세요|
 |기타||
+
 [Return TOP](#list-of-teamsprojects)
 
 # Team 33.
@@ -682,6 +713,7 @@
 |데모 시나리오|어플 사용 시뮬레이션<br>어플 이용 방법) 어플 내 유니폼 대여 후 결제 완료 -> QR 생성 -> 자판기의 QR 리더기에 인식 -> 유니폼 받기<br>개발 알고리즘 및 데이터 분석 결과 데모<br>UI/UX로 앱 실행 시 화면 구성 발표|
 |발표자료|인터넷링크 삽입해주세요|
 |기타|'야구 팬을 위한 사용자 기반 추천 유니폼 대여 앱 및 대여 자판기'의 최종 결과물은 유니폼 대여 자판기, 디바이스를 관리할 수 있는 앱 이렇게 두 종류이다. Donuts 팀은 '스타트' 과정에서 완성한 AI 핵심 기능을 바탕으로, '그로스' 과정에서는 사용자 기반으로 개발한 알고리즘을 반영하여 앱의 다른 기능을 완성하고 UI를 사용자 편의에 맞추어 수정할 예정이다. 또한 대여 자판기를 기능 구현에만 그치지 않고 실제 사용할 수 있는 모양으로 업그레이드하여 더 완성도 있는 결과물을 제작하는 것을 목표로 하고 있다. |
+
 [Return TOP](#list-of-teamsprojects)
 
 # Team 34.
@@ -702,6 +734,7 @@
 |데모 시나리오|최종 API/DB/UI 디자인 설계 완료.<br>예산과 일정을 입력했을 때 예산 분배 알고리즘이 어떻게 동작하는지와 사용량 공유 챌린지의 동작을 중심으로 프로토타입을 시연한다. |
 |발표자료|인터넷링크 삽입해주세요|
 |기타|데이터의 단순 활용보단 많은 사용자의 데이터가 축적된 상황을 가정한, 데이터 활용의 심화 버전 및 가치 창출 방법을 고안할 것.|
+
 [Return TOP](#list-of-teamsprojects)
 
 # Team 35.
@@ -722,6 +755,7 @@
 |데모 시나리오|피그마를 사용하여 프로토타입을 완성, 모델 finetuning|
 |발표자료|인터넷링크 삽입해주세요|
 |기타||
+
 [Return TOP](#list-of-teamsprojects)
 
 # Team 36.
@@ -742,6 +776,7 @@
 |데모 시나리오|[프로젝트 소개 및 기능 설명]<br>- 프로젝트 문제 정의 및 해결 방안<br>- 피그마 와이어프레임을 활용한 기능 설명<br><br>[추천 알고리즘 수행 결과]<br>- TMDB Movies 데이터셋을 활용해, 장르를 바탕으로 content-based filtering 알고리즘 결과를 보여준다.<br>- 사용자와 태그를 매핑하여 콘텐츠에 대한 사용자의 선호도를 예측하는 딥러닝 신경망 모델을 훈련 중임을 보여준다.|
 |발표자료|인터넷링크 삽입해주세요|
 |기타||
+
 [Return TOP](#list-of-teamsprojects)
 
 # Team 37.
@@ -762,6 +797,7 @@
 |데모 시나리오|데모 시나리오: 인공지능 비서 '네스'<br><br>시나리오 설명: 이 데모 시나리오에서는 인공지능 비서 서비스인 '네스'를 소개하고, 이 서비스가 어떻게 일정 및 생산성 관리를 편리하게 만들어주는지 보여줍니다.<br><br>데모 진행자: 안녕하세요! 오늘 저희는 인공지능 비서인 네스를 소개해 드리려고 합니다. 네스를 사용하면 채팅으로 간단하게 모든 일정을 정리할 수 있어요.<br><br>1. 간편한 일정 정리:<br>사용자: 다음주부터는 헬스장을 수요일, 금요일마다 가기로 했어.<br>네스: 운동 일정이 변경되었군요. 캘린더에 화요일, 목요일로 설정되어 있던 루틴을 일괄적으로 변경해드릴까요?<br>데모 진행자: 이처럼 반복되는 일정도 한 마디의 채팅으로 간편하게 수정할 수 있죠.<br><br>사용자: 그럼 이런 것도 가능할까요? (네스에 입력한다.) 중간고사, 기말고사 앞 뒤로는 헬스장 못 갈 것 같아.<br>네스: 기존에 설정된 시험 일정의 전후 일주일 간 헬스장 일정을 삭제해드릴까요?<br>사용자: 2주가 좋을 것 같아.<br>네스: 네, 시험 전후 2주 간 헬스장 일정을 삭제해드렸습니다.<br>데모 진행자: 반복되는 일정 관리 설정도 어렵지만, 이에 예외적인 일정을 관리하는 것은 더 어렵죠. 이와 같은 기능도 단 한 마디의 채팅으로 해결할 수 있답니다.<br><br>2. 스케줄링 보조:<br>데모 진행자: 그럼 시험이 끝나셨을 때 네스는 사용자들을 어떻게 보조해주는지도 알아볼까요?<br>네스: 마지막 시험이 끝나셨네요. 시험기간 중단되었던 일정이 다시 시작될 예정이예요. 다음주 월요일부터는 동아리 활동이 시작되고, 다음주 수요일부터는 다시 헬스장에 가셔야 해요.<br>사용자: (캘린더에서 일정이 정리되어 있는 것을 확인한다.) 시험이 끝났을 때 새롭게 시작될 일정에 대해서도 알려주는군요.<br><br>3. 추천하기 및 리마인드:<br>데모 진행자: 마지막으로, 추천하기 및 리마인드 기능을 살펴볼게요. 화면의 상단에서 확인하실 수 있는데요, 그동안의 입력 데이터를 기반으로 특정 활동을 추천한다던지, 아니면 잊어버린 일정 등을 리마인드 시켜주죠. 아까 입력하셨던 일정의 대부분이 공부 관련이었기 때문에, 지금 '추천하기' 칸에서는 스트레칭을 추천하고 있네요. 그리고 아까 입력했던 일정 중 "친구와 밥 약속"은 장소를 정하기 않았기 때문에, '리마인드' 칸에 친구와 연락해서 식당을 정하라고 알려주고 있어요.<br>사용자: (추천받은 데로 스트레칭을 하고, 친구에게 식당 위치를 묻는 연락을 보낸다.)<br><br>데모 진행자: 여기까지 저희 서비스를 사용해보셨는데요, 감상이 어떠신가요?<br>사용자: 정말 편리했어요! 저는 자유롭게 글로 적기만 했을 뿐인데 일정이 정리되고 심지어 추천까지 해준다는 게 멋졌어요.<br>데모 진행자: 감사합니다. 네스는 여러분의 복잡한 일정을 옆에서 같이 관리하고, 생활을 편리하게 만들어주는 멋진 인공지능 비서입니다.|
 |발표자료|인터넷링크 삽입해주세요|
 |기타|[역량 활용 계획]<br><br>개발 역량 활용: 전혜승 대표는 Google Developer Student Club 맴버 경험을 활용하여 프로젝트의 기술 개발 및 관리 역할을 맡아 프로젝트를 발전시킬 예정이다. 프로젝트의 기술적 도전 과제를 해결하고, 개발 및 배포 과정을 주도할 계획이다.<br>최민주 팀원은 CEOS 및 다양한 IT 및 웹 개발 프로젝트 경험을 통해 프론트엔드 및 웹 개발 역할을 수행할 계획이다. 사용자 인터페이스 및 경험을 개선하고, 웹 기술을 효율적으로 활용하여 프로젝트의 가치를 높인다.<br>이러한 종합적인 노력을 통해 개발 역량을 강화하고, 프로젝트를 발전시키고자 한다.<br><br>AI 역량 활용: 황채원 팀원은 Google ML 부트캠프 및 인공지능 랩실 경험을 통해 머신 러닝 및 딥 러닝 기술을 활용하여 프로젝트에 AI 요소를 통합하고, 사용자에게 혁신적인 기능을 제공할 예정이다.<br>전혜승 대표 또한 이화여대 인공지능 랩실 및 AWS Student Club 멤버로 활동한 경험을 바탕으로, 클라우드 컴퓨팅 및 인공지능 기술에 대한 지식을 프로젝트에 적용하여 효율적인 서비스를 개발할 예정이다.<br>이를 통해서 AI 역량을 강화하고, AI 기술이 적합하게 통합된 프로젝트를 만들 계획이다.<br><br>사용자 경험 역량 활용: 최민주 팀원은 연극 및 영상제작 경험을 활용하여 프로젝트의 멀티미디어 콘텐츠 및 사용자 경험을 개선할 예정이다. 사용자에게 긍정적인 경험을 제공하기 위해 UI/UX 요소를 개선할 예정이다.<br><br>외부 멘토링 진행: 앞서 진행했던 현대 오토에버 부장, 카카오 이사와의  지속적인 소통과 멘토링을 통해 프로젝트 팀의 역량을 지속적으로 향상시킬 것이다. 프로젝트 전략과 방향을 최적화하고 개선하기 위해 멘토링을 적극 활용할 계획이다.<br><br>인큐베이팅 진행: 현재 Naver D2SF에 서류를 제출한 상태로, 통과한다면 네이버 측의 인큐베이팅을 거치면서 금전적, 기술적 지원을 받을 계획이다. 네이버의 거대 언어 모델인 HyperCLOVA X를 활용하여 프로젝트의 AI 기술을 발전시킬 예정이며, 네이버 기술 리더의 피드백을 통해 프로젝트를 발전시킬 계획이다.|
+
 [Return TOP](#list-of-teamsprojects)
 
 # Team 38.
@@ -782,6 +818,7 @@
 |데모 시나리오|1. 데이터 수집 및 검증 결과 소개<br>2. 머신러닝 모델 소개<br>3. 추천 알고리즘 소개<br>4. 메타데이터로 추천 알고리즘 결과 소개<br>|
 |발표자료|인터넷링크 삽입해주세요|
 |기타||
+
 [Return TOP](#list-of-teamsprojects)
 
 # Team 39.
@@ -802,6 +839,7 @@
 |데모 시나리오|사용자가 프로그램의 실행파일을 실행하고 스캐너에 시험지를 대량 스캔하면, 그 이미지 파일을 인식해 채점 결과를 표 형식으로 제공한다.<br><br>입력: 스캔 이미지 파일<br>출력: 채점 결과 표|
 |발표자료|인터넷링크 삽입해주세요|
 |기타||
+
 [Return TOP](#list-of-teamsprojects)
 
 # Team 40.
@@ -822,6 +860,7 @@
 |데모 시나리오|작성한 시나리오를 기반으로 레벨 디자인을 완료하여, 시작화면, ㄱ,ㄴ,ㄷ,ㄹ까지의 씬 제작과 모션인식 개발을 병행|
 |발표자료|인터넷링크 삽입해주세요|
 |기타|박명화(Myung-Hwa Park);서유진(You-Jin Seo). (2022). 장애이해교육과 연계한 초등학교 문화다양성 교육과정 개발 및 실행 효과. 학습자중심교과교육연구, 22(20), 217-232. 10.22251/jlcci.2022.22.20.217 <br>https://lib.ewha.ac.kr/eds/detail/edsker_edsker.000005111340?briefLink=%2Feds%2Fbrief%2FdiscoveryResult%3Fst%3DKWRD%26si%3DTOTAL%26q%3D%25EC%259E%25A5%25EC%2595%25A0%2B%25EC%259D%25B4%25ED%2595%25B4%2B%25EA%25B5%2590%25EC%259C%25A1%26|
+
 [Return TOP](#list-of-teamsprojects)
 
 # Team 41.
@@ -842,6 +881,7 @@
 |데모 시나리오|사용자가 원하는 레벨을 누르고 스토리에 등장시키고 싶은 캐릭터를 선택하면 게임이 시작된다.<br>스토리 사이에 발생하는 수학문제를 모두 해결하면 게임이 완료된다.|
 |발표자료|인터넷링크 삽입해주세요|
 |기타||
+
 [Return TOP](#list-of-teamsprojects)
 
 # Team 42.
@@ -862,4 +902,6 @@
 |데모 시나리오|MLkit API Landmark Detection 모델과 Object Detection의 학습된 모델을 Android에 적용하여 realtime으로 탐지 시연|
 |발표자료|인터넷링크 삽입해주세요|
 |기타||
+
 [Return TOP](#list-of-teamsprojects)
+
