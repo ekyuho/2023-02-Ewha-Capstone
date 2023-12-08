@@ -449,9 +449,9 @@
 # Team 18.
 |프로젝트명|Prompirit: Prompt Editing AI Tool to Improve AI-Generative Work Using User Emotion|
 |:---|:---|
-|작성일|2023-11-24 17:28:00|
+|작성일|2023-12-08 17:00:00|
 |팀번호 및 팀명|18. 앤트|
-|팀구성원들의 역할분담|김한나(2071019) 팀장, 프롬프트 엔지니어링 및 RePrompt 관련 선행연구조사, 논문 작성<br>방선유(2076181) 팀원, 멀티모달 감정 인식 관련 선행연구조사, 프레임워크 및 라이브러리 서치, 논문 작성<br>이현 (2070064) 팀원, 생성형 AI 관련 선행연구조사, 프레임워크 및 라이브러리 서치, 논문 작성|
+|팀구성원들의 역할분담|김한나(2071019) 팀장, 프롬프트 엔지니어링 및 RePrompt 관련 선행연구조사, 유저 스터디 설계 및 진행 리드, 논문 작성<br>방선유(2076181) 팀원, 멀티모달 감정 인식 관련 선행연구조사, 멀티모달 감정인식 및 프롬프트 루브릭 설계 리드, 논문 작성<br>이현 (2070064) 팀원, 생성형 AI 관련 선행연구조사, 자연어처리 및 텍스트 감정 분석 모델 개발 리드, 논문 작성|
 |팀지도교수|오유란 교수님|
 |엘리베이터 스피치 문장|“이미지 GenAI 프롬프트 최적화를 제공하는 Prompirit은 사용자 발화 및 사용자 감정의 키워드를 분석하는 Multi-modal AI 프롬프트 엔지니어링 도구를 사용해 text prompt를 생성한 후, 이를 GenAI의 input 프롬프트로 활용하여 사용자의 감정을 보다 정교하게 반영한 이미지 결과물을 생성하도록 한다.”|
 |문제의 정의| RQ1. How can emotions in text prompts be applied to generated image more precisely with automatic engineering?<br>How can emotion and information requests of image generative AI users be observed more precisely?<br>RQ3. How effective is Prompirit in generating images with emotional expression? <br>RQ1. 어떻게 하면 자동화된 텍스트 프롬프트 엔지니어링을 통해 텍스트 내의 감정을 더욱 정교하게 이미지 결과물에 반영할 수 있는가?<br>RQ2. 어떻게 하면 이미지 생성 AI 사용자의 감정 및 정보 요청을 더욱 명확히 파악할 수 있는가?<br>RQ3. Prompirit이 감정을 반영하는 이미지를 생성함에 있어서 얼마나 더 효과적인가?|
