@@ -76,17 +76,17 @@
 |팀번호 및 팀명|02. 박김배|
 |팀구성원들의 역할분담|배수아(2071027/팀장)<br> - AI: Optical Music Recognition (Lead)<br>  - AI: Automatic Drum Transcription<br>  - 모바일 어플리케이션 개발<br>  - 서버 개발 <br> <br> 김재서(2071015) <br> - AI: Automatic Drum Transcription (Lead)<br> - UI/UX 디자인<br> - 모바일 어플리케이션 개발<br> - AI: Optical Music Recognition<br> <br> 박지영(2076168)<br> - 시스템 아키텍쳐 설계<br> - 모바일 어플리케이션 개발 (Lead)<br> - 서버 개발<br> - AI: Optical Music Recognition<br> - AI: Automatic Drum Transcription|
 |팀지도교수|김명 교수님|
-|엘리베이터 스피치 문장|초보 드러머가 박자를 맞추기 어려워하는 문제를 해결하고자, 악보 프롬프트와 어쿠스틱 드럼 채점 기능을 갖춘 애플리케이션을 통해 초보 드러머의 연습을 돕고자 한다.|
-|문제의 정의|초보자가 드럼을 혼자 연습할 때, 본인의 연주를 객관적으로 판단하지 못하는 경우가 있다.<br>자신의 연주가 정확한지, 틀렸다면 정확히 어떤 부분이 어떻게 틀렸는지를 알기 어렵기 때문에 이를 해결하고자 한다.|
+|엘리베이터 스피치 문장|박자감 및 자기확신이 부족한 초보 드러머를 위해, 악보 프롬프트와 어쿠스틱 드럼 채점 기능을 갖춘 어플리케이션을 통해서 초보 드러머의 연습을 돕고자 한다.|
+|문제의 정의|초보 드러머의 경우, 악보 해석 능력이 부족해서 박자 자체를 이해하지 못하는 경우도 있고, 이해하더라도 가사가 없는 부분에서 박자를 놓치기 쉽다. 또한, 속도가 빠르고 박자가 복잡한 경우에도 어려움을 겪는다. <br>자신의 연주가 정확한지, 틀렸다면 정확히 어떤 부분이 어떻게 틀렸는지를 초보자가 판단하기 어렵기 때문에 이를 해결하고자 한다.|
 |관련연구/서비스/ 시스템조사결과 및 한계점|Cantabile: 실제 피아노 소리를 인식해, 피드백을 제공하고 채점해주는 등 피아노 연습을 도와주는 앱<br><br>- 지원 악기: 어쿠스틱 피아노, 디지털 피아노 등 모든 피아노<br>- 실시간으로 악기 연주 피드백 제공 및 연주 완료 후 채점을 AI를 통해 제공<br>- “피드백 모드”, “연주 모드”, “자동 음악 연주” 모드가 있어 다양하게 연습 가능<br>- 앱 내 등록된 곡들만 연주 가능하다는 한계 존재<br><br>Melodics: MIDI 기기와 연동하여 곡을 연습해 볼 수 있는 Desktop App<br><br>- 지원 악기: 키보드, 핑거 드럼, 전자 드럼 등의 MIDI 악기<br>- 실시간으로 연주가 기록되는 형태로 피드백 제공<br>- 연주가 끝난 후, 종합 점수 제공<br>- 게이미피케이션을 통해 지속적 연습에 대한 동기 부여<br><br>Yamaha 전자드럼: 전자드럼에 내장되어 연습을 돕는 소프트웨어<br><br>- 연주가 끝난 후, 각 악기 별 점수 제공<br>- 장르 별로 준비된 곡에 대해 강습 기능 존재<br>- 스트로크 연습 가능<br><br>Real Drum Online : 앱/웹으로 드럼 연습 혹은 연주<br><br>- “수업”모드에서 서비스가 제공하는 드럼 연주를 사용자가 따라 연주한 후, 별점 및 점수 형태로 피드백 제공<br>- “루프”모드에서 원하는 장르 및 bpm인 곡을 선택 후, 선택한 곡의 박자에 맞게 드럼 연주<br>- 메트로놈 기능 제공(프리미엄)<br>- 앱 내 등록된 곡들만 연주 가능하다는 한계 존재|
-|제안내용|AI 모델을 통해 사용자의 연주를 전사한 후, 기존 악보와 비교하여 정확도를 평가한다.<br>전사한 결과를 악보형태로 시각화하여 사용자에게 효과적으로 전달한다.|
-|구현방법|1. 악보 이미지 인식 (Optical Music Recognition)<br>- 악보 이미지를 OMR 기술을 사용해 인식한 후, 통합 언어 형태로 바꾼다<br>2. 드럼 소리 전사 (Automatic Drum Transcription)<br>- AI 모델을 통해 드럼 소리를 전사한 후, 통합 언어 형태로 바꾼다.<br>3. 알고리즘을 통해 비교 & 채점<br>4. 기존 악보에 사용자의 연주를 시각화<br>5. 앱 개발|
-|사용할 세부기술|Librosa<br>Flutter<br>Dart<br>Sklearn<br>Tensor<br>python 가상환경 (venv)<br>Pytorch<br>Torchaudio<br>OpenCV<br>Tensorflow<br>Anaconda|
+|제안내용|1. 사용자 연주 전사: 사용자의 연주를 녹음한 후, Automatic Drum Transcription AI를 통해 전사한다. <br><br> 2. 사용자 연주 채점: 사전에 입력받은 악보 데이터와 사용자의 연주 기록을 비교하여 소리 및 박자 정확도를 기준으로 채점한다.|
+|구현방법|**1. 드럼 전사 AI (Automatic Drum Transcription)** <br>: 시스템의 주요 기능으로, 사용자가 입력한 소리를 전사하여 사용자의 연주를 인식하는데 사용됨.<br>(사진)<br>**1-1. Segment & Classify**<br>1-1-1. Onset Detect **[박자 전사]**<br>1-1-2. Feature extraction<br>1-1-3. Classification(CNN) **[악기 전사]**<br><br>**1-2. Separate & Detect**<br>1-2-1. Feature extraction<br>1-2-2. RNN **[악기 전사]**<br>1-2-3. Peak Detection **[박자 전사]**<br><br>**2. 악보 인식 AI (Optical Music Recognition)**<br>: 사용자에게 악보를 사진으로 입력 받기 위함으로, 사용자의 연주와 비교하기 위한 악보 입력 방식 ⇒ 채점을 하기 위한 기술<br>➔ 사용 기술: OpenCV 4.5, CNN, RNN<br><br>**3. 아키텍처**<br>(사진)<br>클라우드: AWS EC2(Ubuntu 22.04), S3 / firebase<br>프레임워크: flutter, FastAPI<br>AI: librosa, Tensorflow, essentia<br>etc: redis |
+|사용할 세부기술|flutter 3.13<br>FastAPI<br>anaconda<br>librosa 0.10<br>Tensorflow 2.14<br>essentia 2.1<br>OpenCV 4.5|
 |기대효과 및 의의|악보를 기반으로 객관적인 피드백을 제공함으로써 사용자는 자신의 드럼 연주 능력에 따라 개선이 필요한 부분을 시각적으로 볼 수 있어, 보다 구체적인 연습 목표를 설정할 수 있다.<br>자신의 드럼 연주에 대해 수치화된 점수를 받음으로써 사용자는 연주에 재미를 느낄 수 있다.|
 |기술적 성취/ 산출물|기획 상세화 및 와이어프레임 작성<br>wav 파일에 대한 이해<br>librosa library를 활용하여 wav 파일로부터 파형, spectrogram, mel sepctrogram 추출 <br>AI 기반 지식 획득<br>드럼 연주 샘플 데이터를 활용하여 음정을 킥, 심볼, 탐, 스네어로 분류하는 AI 학습<br>데이터 라벨링 <br>1. acoustic drum data를 학습에 사용할 수 있도록 전처리 및 라벨링<br><br>모델<br>1. 라벨링 된 드럼 연주 데이터를 활용하여 전사 모델 학습 진행 <br>2. 악보 이미지 인식 모델 개발<br><br>전반적인 파이프라인 구축<br>1. 악보 이미지 인식 <br>2. 드럼 소리 전사 (박자 인식/소리 인식)<br>데이터 라벨링 <br>1. acoustic drum data를 학습에 사용할 수 있도록 전처리 및 라벨링<br><br>모델<br>1. 라벨링 된 드럼 연주 데이터를 활용하여 전사 모델 학습 진행 <br>2. 악보 이미지 인식 모델 개발<br><br>전반적인 파이프라인 구축<br>1. 악보 이미지 인식 <br>2. 드럼 소리 전사 (박자 인식/소리 인식) <br> <br> 드럼 소리 전사 AI 정확도 개선 & 속도 최적화<br>1. validation set를 추론한 결과를 보고, 하이퍼파라미터 조정<br>2. 경우에 따라 파이프라인 수정|
 |데모 시나리오|ipad APP(flutter)으로 드럼 연주를 녹음하여, 개발 중인 windows WSL 환경에 구축한 간이 서버에 녹음 파일을 전송하여, 결과를 받아보는 장면을 사전 녹화한 영상|
 |발표자료|인터넷링크 삽입해주세요|
-|기타|사랑합니다.|
+|기타||
 
 [Return TOP](#list-of-teamsprojects)
 
