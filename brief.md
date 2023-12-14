@@ -1,4 +1,3 @@
-![image](https://github.com/da2mon/2023-02-Ewha-Capston/assets/87376242/031903e1-f67f-4c4c-b5bb-f740fad821a1)# List of Teams/Projects
 |팀번호|팀명|프로젝트|
 |:---|:---|:---|
 |01|[Optimus GPrime](#team-01)|Hurry Attention: GPU의 구조를 고려한 Transformer-based LLM 추론 효율성 향상 및 가속화
