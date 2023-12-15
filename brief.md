@@ -674,7 +674,9 @@
 |기술적 성취/ 산출물|-주제 회의: 감정쓰레기통(심리 일기), 손민수템(연예인 착용 옷, 아이템 찾아주는 서비스), 입법 과정과 현안 검색 및 안내 웹<br>3D 이미지를 활용한 통증 지도, 패턴 찾아주는 앱 등 다양한 주제에 대해 고민하고 회의함<br>-외부 멘토 컨택 및 확정<br>-도메인 공부: 인공지능 관련 스터디, 깃 사용법 숙지, 노션 사용법 숙지<br>-주제 최종 선정: 패턴을 알려주는 앱<br>-주제 구체화 및 회의<br>-1차, 2차 멘토링<br>-기계학습 관련 공부 예정<br>-프로토타입 제작 예정<br>-기계학습 공부 계속<br>-주제 변경: 선수과목 학습 도우미 챗봇|
 |데모 시나리오|프로토타입 보여줄 예정|
 |발표자료| https://drive.google.com/file/d/1KcTx4AaR_0hEgYa-3uyx9Ie0fpJQK9DL/view?usp=drivesdk|
-|기타||
+|기타| <프로토타입><br>![image](https://github.com/mengzii/2023-02-Ewha-Capston/assets/141936131/db81cb0b-4dab-48d9-838b-7672ae9bbe1c)<br><데모><br>![image](https://github.com/mengzii/2023-02-Ewha-Capston/assets/141936131/5402b29d-a53a-42db-bb0e-8470a118644e)<br>데모 코드 링크: https://colab.research.google.com/drive/1oW82nEwh72TDixcD544VZOwQ2I36pAs8|
+
+
 
 [Return TOP](#list-of-teamsprojects)
 
