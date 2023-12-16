@@ -835,7 +835,7 @@
 # Team 38.
 |프로젝트명 / 부제|스킨트리 / 실패 없는 화장품 선택을 위한 머신러닝 기반 성분 맞춤형 화장품 추천 서비스|
 |:---|:---|
-|작성일|2023년12월14일|
+|작성일|2023년12월18일|
 |팀번호 및 팀명|38. 화이|
 |팀구성원들의 역할분담|정다희(2076367) 팀장, Flask, react 등 프론트엔드<br>임수화(2176313) 팀원, scikitlern, jupyter notebook 등 머신러닝<br>안민영(2045025) 팀원, AWS Ubuntu 22.04, Flask, MySQL 등 백엔드|
 |팀지도교수|최병주 교수님|
@@ -849,7 +849,6 @@
 |기술적 성취/ 산출물|1. 산출물<br>[기능별 상세 요구사항 작성](https://docs.google.com/spreadsheets/d/1l-bGzc2MBm7kck7FztLDdP_an8Bh5UZtwO_bGtRl8oE/edit?usp=sharing)<br>[ui 설계서 작성](https://drive.google.com/file/d/1Wbns4MnQvAeVrl9H4Ocu70zPoakNu4PE/view?usp=sharing)<br>[E-R 다이어그램 작성](https://drive.google.com/file/d/1BYMwbJ4CLQpfs1ahkKqWRhmaF8_vYgRJ/view?usp=sharing)<br>[클래스 다이어그램 작성](https://drive.google.com/file/d/1JUu_MOcLSsqjxnqlo0AVnW3Fa68BO7Hk/view?usp=sharing)<br>[프로토타입 영상](https://drive.google.com/file/d/1zXt1MfhmwtDQuNvSgmisPa8az02k5nPK/view?usp=sharing)<br><br>2. 기술적 성취<br>제품 데이터 수집 및 전처리<br>데이터 샘플링 및 사용자 성분 리스트 데이터 생성<br>머신러닝 모델 설계<br>유사도 알고리즘 코드 작성 1) 코사인 유사도 2) 자카드 유사도<br>유사도 알고리즘 비교 분석 및 양적 검증<br>유사도 알고리즘 선정(정확도가 더 높은 자카드 유사도)|
 |데모 시나리오|웹 브라우저 환경에서 전체 서비스 동작 실시간 시연<br>1. 사용자 데이터(기존 사용 화장품) 입력<br>2. 추천받고 싶은 카테고리 선택<br>3. 학습된 모델을 통해 추출된 추천 제품 확인 |
 |발표자료|[기말발표 PPT](https://drive.google.com/file/d/1FEj56Gmjg7Old8epDllurw4yPiWHlg3_/view)|
-|지도교수님 커멘트||
 |기타||
 
 [Return TOP](#list-of-teamsprojects)
