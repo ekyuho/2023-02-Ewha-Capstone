@@ -145,8 +145,8 @@
 |구현방법|얼굴 이미지에서 얼굴의 주요 특징(눈, 코, 입술, 턱선 등)을 감지하는 face landmarks detection 모델을 사용하여 얼굴 이미지에서 특징점을 식별하고, 이러한 지점을 제공받는다. 얼굴형을 분석하기 위해 Face Shape Dataset을 사용하여 다양한 얼굴형을 나타내는 이미지와 해당 얼굴형에 대한 라벨 또는 설명을 제공받는다. 얼굴 특징점을 Face Shape Dataset의 이미지에 매핑한 후, 얼굴형을 분석한다. 사용자의 얼굴에 맞는 여러 헤어 스타일 사진을 생성하기 위해 StarGAN-v2를 사용하고, 해당 모델에 '동양적인' 헤어스타일 이미지 데이터를 seeprettyface에서 확보하여 앞머리 유무, 헤어 스타일에 따라 라벨링 한 후, input으로 넣는다. SEAN을 사용해서 face-parsing.Pytorch에서 제공하는 pretrained 모델을 활용하여 segmentation map을 구한 것을 기반으로 헤어스타일 외 변화(메이크업 등)를 보정 및 제거한다. 이렇게 얻은 최종 이미지(best & worst) 여러장을 사용자에게 전달한다. 위 모든 로직을 EC2에 docker 이미지로 저장하여 구축한다.|
 |사용할 세부기술|Spring<br>MySQL<br>AWS<br>Docker<br>Git action<br>React<br>Google Colab<br>Flask<br>Kaggle<br><br>|
 |기대효과 및 의의|1. 개성에 맞는 헤어스타일링 가능 <br>2. 헤어 디자이너 비교를 통한 합리적인 결정(디자인,날짜,거리) 가능 <br>3. 헤어 디자이너의 포트폴리오화를 통한 커리어 정리|
-|기술적 성취/ 산출물|배포 아키텍처 성립, 주제 및 기능 정하기, 교수상담 및 멘토링 진행<br>시장 분석, 기능 확정<br>세부 기능 확정 및 프로토타입 개발, 기술블로그 생성 및 작성|
-|데모 시나리오| colab을 통한 face landmark 적용과 얼굴형 분석 결과를 보여주고 전체적인 플로우를 보여줌으로써, 프로젝트 전반에 대한 이해를 돕는다. |
+|기술적 성취/ 산출물|배포 아키텍처 성립<br>주제 및 기능 정하기<br>교수상담 및 멘토링 진행<br>시장 분석<br>기능 확정<br>세부 기능 확정 및 프로토타입 개발<br>기술블로그 생성 및 작성|
+|데모 시나리오| colab을 통한 face landmark 적용과 얼굴형 분석 결과, starGAN v2를 이용한 얼굴 합성 결과를 보여주고 전체적인 플로우를 보여줌으로써, 프로젝트 전반에 대한 이해를 돕는다. |
 |발표자료|https://drive.google.com/file/d/11k9hCoEFv16Q8NIx2SDfY4LpsJ4RKv_o/view?usp=sharing|
 |기타||
 
