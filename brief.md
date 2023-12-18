@@ -721,7 +721,7 @@
 |기술적 성취/ 산출물|1. 주제 선정 - 공유니폼<br>: 야구 팬을 위한 사용자 기반 추천 유니폼 대여 앱 및 대여 자판기<br>2. 개발 플랫폼 선정 : 안드로이드 어플리케이션<br>3. 프로젝트 기획 및 구체화<br>: 대여 방법 (어플에서 대여 신청, 결제 시 QR코드 발급 -> 발급된 QR코드를 자판기에 인식시키면 결제한 유니폼을 대여 가능), 반납 방법 (반납 부스에서 유니폼에 부착된 바코드를 통해 반납 여부 확인)<br>역할분담, 시나리오 제작, DB 설계, UI/UX 제작(figma), 사용자별 선수 유니폼 추천 알고리즘 기획, 경기 기록 기반 선수 추천 알고리즘 제작|
 |데모 시나리오|어플 사용 시뮬레이션<br>어플 이용 방법) 어플 내 유니폼 대여 후 결제 완료 -> QR 생성 -> 자판기의 QR 리더기에 인식 -> 유니폼 받기<br>세 종류의 선수 추천 알고리즘 데모|
 |발표자료|https://drive.google.com/file/d/1EklQhIpCVGJy8MO4Ea88ClsBuB2rMNYt/view|
-|기타|깃허브 링크<br>https://github.com/Hyeon0630/GongUniform<br>발표 때 데모한 경기 기록 기반 선수 추천 알고리즘 영상<br>https://drive.google.com/file/d/1EklQhIpCVGJy8MO4Ea88ClsBuB2rMNYt/view?usp=sharing|
+|기타|깃허브 링크<br>https://github.com/Hyeon0630/GongUniform<br>발표 때 데모한 경기 기록 기반 선수 추천 알고리즘 영상<br>https://drive.google.com/file/d/1cnsYhCXiSSrw8PPPXhD4bslFkgRvb5-O/view?usp=sharing|
 
 [Return TOP](#list-of-teamsprojects)
 
