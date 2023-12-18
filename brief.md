@@ -207,7 +207,7 @@
 |기술적 성취/ 산출물|1. 아이디어 회의 -> 아이디어 구체화<br>2. 멘토링 진행 -> AI분야관점에서 혁신적인 point 부족, 실용성 위주 -> 아이디어 변경<br>3. 교수님과 면담 -> 주제가 변경된 프로젝트 전체적인 계획(사용기술선택) 설명 및 피드백 <br>4. AI모델 탐색 : OepnCV, CNN, Dlib, YOLO8 확정<br>5. 기술명세서 작성 -> 시스템 아키텍쳐 구상<br>6. AI모델 학습 및 최적화 : 임의의 사용자 동영상 데이터를 Open CV로 처리, Dlib로 눈/코/입와 같은  face 위치 탐색,사용자의 눈의 깜빡임을 CNN으로 감지<br>7. ERD 다이어그램 구상 <br>8. 간단한 figma 완성 : 동영상 데이터 기반으로 집중도 score 그래프 시각화까지 <br>7. 백엔드 파트 rest API 환경 설정|
 |데모 시나리오|동영상 강의 시청 시, 사용자의 모습을 카메라 센서를 통해 입력 받고 딥러닝 모델을 가지고 이미지를 분석합니다. 이때, 딥러닝 모델 분석 과정은 Open CV로 동영상 처리, Dlib로 face의 주요 부위 위치 탐색, CNN을 통해 눈 뜨면 1, 눈 감으면 0으로 인식하여 눈의 깜빡임을 분석합니다. 그 외 집중도 평가 요인 분석은 YOLO v8으로 이루어집니다. 분석 결과를 그래프로 시각화 해주고, 동시에 사용자의 공부시간을 집계하여 표시해줌으로써 학습 자가 진단이 가능해집니다. 추후 토론을 통해 추가 시, 친구들과 study with me 서비스를 만들어 줌을 이용해  친구들과 같이 공부할 수 있고, 집중도 분석을 대결 방식으로 이루어져 긍정적인 경쟁을 통해 학습 효율 증진을 목표로 하고 있습니다. |
 |발표자료|https://drive.google.com/file/d/1LobRHMLopZE37V0UmNqNcTdf-ay1HfEK/view?usp=drive_link|
-|기타|figma : https://www.figma.com/file/HdjiOxi2dllFHUg4BE6ywk/Untitled?type=design&node-id=0%3A1&mode=design&t=8KyosPYwYHpgCzcn-1 <br>집중도 평가 그래프 시각화, 공부시간집꼐 표시, 추가 서비스 도입 시, 다른 이용자와 친구 맺음으로써 줌캠으로 같이 study with me, 집중도 대결이 펼쳐집니다. |
+|기타|figma : https://www.figma.com/file/HdjiOxi2dllFHUg4BE6ywk/Untitled?type=design&node-id=0%3A1&mode=design&t=8KyosPYwYHpgCzcn-1 <br> 추가 기능 : 집중도 평가 그래프 시각화, 공부시간집계 표시, 추가 서비스 도입 시, 다른 이용자와 친구 맺음으로써 줌캠으로 같이 study with me, 집중도 대결이 펼쳐집니다. |
 
 [Return TOP](#list-of-teamsprojects)
 
