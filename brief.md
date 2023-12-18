@@ -896,7 +896,7 @@
 # Team 42.
 |프로젝트명 / 부제|DRIVE GUARDIAN : 경량화한 딥러닝 모델을 통해 운전자의 졸음 운전 및 운전 중 부주의를 방지하는 운전자 모니터링 앱 서비스|
 |:---|:---|
-|작성일|2023-11-23|
+|작성일|2023-12-15|
 |팀번호 및 팀명|42. 왈라비|
 |팀구성원들의 역할분담|이하진(2176308) 팀장, landmark detection 모델을 사용하여 눈 크기 탐지. 사용자의 눈 크기 비율에 따른 졸음 탐지 수행. <br>이지원(2171038) 팀원,  landmark detection 모델을 사용하여 눈 깜박임 및 횟수 탐지. 눈 깜박임 횟수에 따른 졸음 탐지 수행. <br>박지현(217615) 팀원, object detection 모델을 사용하여 운전 중 하품, 부주의 행동 등 이상행동 탐지 수행 및 안드로이드 연결|
 |팀지도교수|이형준 교수님|
@@ -909,7 +909,7 @@
 |기대효과 및 의의|이 프로젝트를 통해서 졸음운전이나 부주의로 인한 사고의 위험에 처해 있는 누구나 핸드폰 앱서비스를 통해서 위험을 방지하는 것을 기대합니다.|
 |기술적 성취/ 산출물|주제 탐색 및 데이터셋 확인, 학습에 사용될 모델 선정<br><br> <br>Android 적용에 대한 탐색 진행<br> <br>서비스에 사용될 여러가지 모델들(detection, landmark detection)를 이용한 졸음 탐지 메커니즘 구체화<br><br><br>눈깜박임 탐지, 눈이 감기는 정도 탐지, 하품 탐지를 YOLO와 ML-kit을 이용하여 구현하고 Android Studio에 연동|
 |데모 시나리오|MLkit API Landmark Detection 모델과 Object Detection의 학습된 모델을 Android에 적용하여 realtime으로 탐지 시연|
-|발표자료|인터넷링크 삽입해주세요|
+|발표자료|(https://drive.google.com/file/d/1hyfdkKh2C69m7MF1oyEtlbhb29KD67Mn/view?usp=sharing)https://drive.google.com/file/d/1hyfdkKh2C69m7MF1oyEtlbhb29KD67Mn/view?usp=sharing|
 |지도교수님 커멘트||
 |기타||
 
