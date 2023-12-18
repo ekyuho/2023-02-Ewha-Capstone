@@ -910,7 +910,6 @@
 |기술적 성취/ 산출물|주제 탐색 및 데이터셋 확인, 학습에 사용될 모델 선정<br><br> <br>Android 적용에 대한 탐색 진행<br> <br>서비스에 사용될 여러가지 모델들(detection, landmark detection)를 이용한 졸음 탐지 메커니즘 구체화<br><br><br>눈깜박임 탐지, 눈이 감기는 정도 탐지, 하품 탐지를 YOLO와 ML-kit을 이용하여 구현하고 Android Studio에 연동|
 |데모 시나리오|MLkit API Landmark Detection 모델과 Object Detection의 학습된 모델을 Android에 적용하여 realtime으로 탐지 시연|
 |발표자료|인터넷링크 삽입해주세요|
-|지도교수님 커멘트||
 |기타||
 
 [Return TOP](#list-of-teamsprojects)
